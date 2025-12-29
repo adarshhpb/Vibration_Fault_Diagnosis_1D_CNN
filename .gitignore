@@ -1,21 +1,19 @@
-# Python cache
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 
 # Virtual environment
 venv/
+.env/
 
-# Dataset
+# Data (datasets are large)
 data/
+!data/README.md
 
-# ML artifacts
-*.keras
-*.h5
-results/
-logs/
+# Models (large binaries)
+models/*.keras
+models/*.h5
 
-# Editor / OS
-.vscode/
-.idea/
+# OS
 .DS_Store
 Thumbs.db
